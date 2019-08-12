@@ -32,9 +32,9 @@ pipeline{
 
             steps {
                 snDevOpsStep 'f1d16550c7173300b8e302b827c260c3'
-                //cucumber buildStatus: "UNSTABLE",
-                //    fileIncludePattern: "**/cucumber.json",
-                //    jsonReportDirectory: 'target'
+                cucumber buildStatus: "UNSTABLE",
+                    fileIncludePattern: "**/cucumber.json",
+                    jsonReportDirectory: 'target'
 
             }
 
