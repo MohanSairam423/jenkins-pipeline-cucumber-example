@@ -16,17 +16,7 @@ pipeline{
 
             }
         }
-    stage ('Test Stage') {
-
-            steps {
-                //snDevOpsStep 'f9d16550c7173300b8e302b827c260c3'
-                //withMaven(maven: 'maven_3_6_1') {
-                    //sh 'mvn test'
-                //}
-                
-
-            }
-        }
+    
 
 
         stage ('Cucumber Reports') {
