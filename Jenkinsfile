@@ -8,9 +8,9 @@ pipeline{
 
             steps {
                 snDevOpsStep '7dd16550c7173300b8e302b827c260c3'
-                withMaven(maven: 'maven_3_6_1') {
+                //withMaven(maven: 'maven_3_6_1') {
                     sh 'mvn clean install'
-                }
+                //}
 
                 
 
@@ -20,9 +20,9 @@ pipeline{
 
             steps {
                 snDevOpsStep 'f9d16550c7173300b8e302b827c260c3'
-                withMaven(maven: 'maven_3_6_1') {
+                //withMaven(maven: 'maven_3_6_1') {
                     sh 'mvn test'
-                }
+                //}
                 
 
             }
