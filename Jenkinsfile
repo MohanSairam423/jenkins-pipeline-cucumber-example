@@ -23,7 +23,7 @@ pipeline{
 
             steps {
                 snDevOpsStep 'f1d16550c7173300b8e302b827c260c3'
-                //sh 'mvn test -Dpublish'
+                sh 'mvn test -Dpublish'
                 //cucumber buildStatus: "UNSTABLE",
                   //cucumber  fileIncludePattern: "**/cucumber.json",
                     //jsonReportDirectory: 'target'
