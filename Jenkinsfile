@@ -19,7 +19,7 @@ pipeline{
     
 
 
-        stage ('Cucumber Reports') {
+        stage ('Cucumber Test Reports') {
 
             steps {
                 snDevOpsStep 'f1d16550c7173300b8e302b827c260c3'
